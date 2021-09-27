@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+   <!---- <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"> -->
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- External CSS -->
+    <link href="style.css" rel="stylesheet" type= "text/css"> 
+    <!--for trash icon-->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.css">
+    <!--jquery google-cdn-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <!-- External JS -->
+      <script src="index.js"></script>
+
+  
+    <title>To-Do List</title>
+  </head>
+  <body>
+    <div class="container">
+        <div class="row">
+        <div class="col-sm"></div>
+           
+        <div class="col-sm mt-2">
+        <div class="card">
+            <div class="card-header bg-success text-light">TO-DO List <i class="float-right " id="add"><i class="fa fa-plus"></i></i>
+            </div>
+            <input type="text" id="new" placeholder="Add new Todo"/>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><span class="bg-danger text-light trash"><i class="fa fa-trash"></i></span>Meet TAs</li>
+              <li class="list-group-item"><span class="bg-danger text-light trash"><i class="fa fa-trash"></i></span>Post Grades</li>
+              <li class="list-group-item"><span class="bg-danger text-light trash"><i class="fa fa-trash"></i></span> PTA Meeting</li>
+            </ul>
+          </div>
+    </div>
+    
+        <div class="col-sm"></div>
+        </div>
+        </div>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+
+.done{
+    text-decoration: line-through;
+}
+span{
+    
+    width: 25px;
+    text-align: center;
+    display: inline-block;
+}
+.hidden{
+    display: none;
+    
+}
